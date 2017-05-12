@@ -1,17 +1,17 @@
 #Inherit from vendor
-$(call inherit-product-if-exists, vendor/samsung/gprimeltezt/gprimeltezt-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/fortunalteub/fortunalteub-vendor.mk)
 
 # Inherit from common
 BOARD_NFC_CHIPSET := pn547
 $(call inherit-product, device/samsung/gprimelte-common/device-common.mk)
 
-LOCAL_PATH := device/samsung/gprimeltezt
+LOCAL_PATH := device/samsung/fortunalteub
 
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
 
 # Common overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/gprimeltezt/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/fortunalteub/overlay
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
@@ -31,6 +31,6 @@ PRODUCT_PACKAGES += \
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.product.model=SM-G530MU \
-	ro.product.device=gprimeltezt
+	ro.product.model=SM-G530M \
+	ro.product.device=fortunalteub
 

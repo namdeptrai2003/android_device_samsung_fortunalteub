@@ -1,6 +1,6 @@
-# android_device_samsung_gprimeltezt
+# android_device_samsung_fortunalteub
 
-## Device tree for Samsung Galaxy Grand Prime G530MU [grimeltezt]
+## Device tree for Samsung Galaxy Grand Prime G530M [fortunalteub]
 
 Basic   | Spec Sheet
 -------:|:-------------------------

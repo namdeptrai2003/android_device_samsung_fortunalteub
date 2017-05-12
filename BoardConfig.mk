@@ -1,18 +1,14 @@
 # Inherit from common
 include device/samsung/gprimelte-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/gprimeltezt
+LOCAL_PATH := device/samsung/fortunalteub
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := gprimeltezt,fortunaltezt,fortunalteuh,gprimelteuh,samsung_sm_g530mu,g530mu
+TARGET_OTA_ASSERT_DEVICE := fortunalteub,fortunalte,gprimelteub,samsung_sm_g530m,g530m
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_fortuna_chnzt_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_fortuna_sea_defconfig
 
 # Partition sizes
 BOARD_SYSTEMIMAGE_PARTITION_SIZE    :=  1468006400
 BOARD_USERDATAIMAGE_PARTITION_SIZE  := 5834256384
-
-# NFC
-BOARD_NFC_CHIPSET := pn547
-BOARD_NFC_DEVICE := "/dev/$(BOARD_NFC_CHIPSET)"
