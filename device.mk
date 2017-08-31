@@ -17,9 +17,3 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/fortunalteub/overlay
 NXP_CHIP_TYPE := 1
 PRODUCT_PACKAGES += \
 	nfc_nci.pn54x.msm8916
-
-# Properties
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.product.model=SM-G530M \
-	ro.product.device=fortunalteub
-
